@@ -1,7 +1,5 @@
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .team-title {
   font-weight: 700;
@@ -9,6 +7,10 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+}
+.team-item{
+  background-color: #ffffff;
 }
 .team-name {
   font-weight: 500;
@@ -16,10 +18,12 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .team-position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
