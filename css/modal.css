@@ -30,6 +30,10 @@
   background-color: #fcfcfc;
   border-radius: 4px;
   padding: 72px 24px 24px 24px;
+  box-shadow:
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .modal-close-btn {
@@ -42,7 +46,7 @@
   justify-content: center;
   align-items: center;
   background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
   padding: 0;
   transition:
@@ -194,8 +198,7 @@
   margin-right: 8px;
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-checkbox-icon {
@@ -221,7 +224,7 @@
 
 .modal-submit-btn {
   display: block;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
   margin: 0 auto;
   padding: 16px 32px;
@@ -233,6 +236,7 @@
   letter-spacing: 0.04em;
   border: none;
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
